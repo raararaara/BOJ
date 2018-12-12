@@ -24,10 +24,6 @@ int main() {
 			sum -= bino(13, i) * bino(52 - 4 * i, n - 4 * i);
 	}
 	printf("%lld\n", sum % MOD);
-	/*if (n > 39)
-		printf("%lld\n", bino(52, 52-n)%MOD);
-	else {
-		printf("%lld\n", (bino(52, n) - )%MOD);
-	}*/
+	
 	return 0;
 }
